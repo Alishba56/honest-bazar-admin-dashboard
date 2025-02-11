@@ -24,7 +24,7 @@ const Sidebar = () => {
         )}
       </button>
       <aside
-        className={`bg-gray-900 text-white w-64 space-y-6 py-7 px-2 fixed inset-y-0 left-0 transform ${
+        className={`bg-black text-white w-64 space-y-6 py-7 px-2 fixed inset-y-0 left-0 transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:relative md:translate-x-0 transition-transform duration-300 ease-in-out z-40 shadow-xl`}
       >
